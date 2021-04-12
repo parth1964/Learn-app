@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mtechviral/pages/homepage_screen/drawer.dart';
+import 'package:mtechviral/pages/homepage_screen/home_items.dart';
 
 // ignore: must_be_immutable
 class HomePage extends StatelessWidget {
@@ -12,12 +13,7 @@ class HomePage extends StatelessWidget {
         title: Text("Catalog App"),
         centerTitle: true,
       ),
-      body: Center(
-        child: Text(
-          "Data New",
-          style: TextStyle(fontSize: 25),
-        ),
-      ),
+      body: HomeItem(),
       drawer: DrawerScreen(),
     );
   }

@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class DrawerScreen extends StatelessWidget {
+  final String imageUrl =
+      "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_announce-iphone12pro_10132020_big.jpg.large.jpg";
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -15,13 +17,15 @@ class DrawerScreen extends StatelessWidget {
                 accountEmail: Text(
                   "ramanujparth20@gmail.com",
                   style: TextStyle(color: Colors.white),
-                ),
+                ), 
                 accountName: Text(
                   "Parth Ramanuj",
                   style: TextStyle(color: Colors.white),
                 ),
                 currentAccountPicture: CircleAvatar(
-                  backgroundImage: AssetImage(
+                  backgroundImage:
+                      //  NetworkImage(imageUrl),
+                      AssetImage(
                     "assests/login.png",
                   ),
                 ),
