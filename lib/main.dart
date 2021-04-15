@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mtechviral/pages/homepage_screen/Home_page.dart';
+import 'package:mtechviral/pages/Home_page.dart';
 import 'package:mtechviral/pages/themes.dart';
 import './utils/routes.dart';
 import 'pages/login.dart';
